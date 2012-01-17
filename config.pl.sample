@@ -1,0 +1,22 @@
++{
+    HatenaBookmark => {
+        username =>,
+        password => ,
+        timeout => 60 * 5,
+    },
+    Foursquare => {
+        oauth_token => ,
+        id => ,
+        secret => ,
+    },
+    Tumblr => {
+        consumer_key => ,
+        consumer_secret => ,
+        access_token => ,
+        access_token_secret => ,
+        blog => ,
+        time_zone => "Asia/Tokyo",
+    },
+    time_zone => "Asia/Tokyo",
+};
+
