@@ -17,6 +17,12 @@
         blog => ,
         time_zone => "Asia/Tokyo",
     },
+    Exif => {
+      path => ,
+    },
+    iPhoto => {
+      db => ,
+    },
     time_zone => "Asia/Tokyo",
 };
 
