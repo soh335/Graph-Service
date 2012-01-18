@@ -41,6 +41,11 @@ requires 'Path::Class';
 requires 'OAuth::Lite2';
 requires 'Plack';
 requires 'Plack::Session';
+requires 'DateTime::Format::Strptime';
+requires 'File::Zglob';
+requires 'Image::ExifTool';
+requires 'DBI';
+requires 'DBD::SQLite';
 
 test_requires 'Test::More'     => '0.88';
 test_requires 'Test::Requires' => '0.06';
