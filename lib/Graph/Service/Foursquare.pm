@@ -8,6 +8,7 @@ use JSON qw/decode_json/;
 use URI;
 use DateTime;
 use Log::Minimal;
+use LWP::UserAgent;
 
 has "oauth_token"  => ( is => "ro", isa => "Str", required => 1 );
 has "ua" => ( is => "ro", isa => "LWP::UserAgent", lazy_build => 1 );
